@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" type = "text/css">
+    <title>Discover the top streamed music and songs online on souncdcloud!</title>
+</head>
+<body>
+    <header>
+        <div class = "header_inner">
+            <div class = "header_left">
+                <div class = "logo left">
+                    <a href="/" title = "home">SoundCloud</a>
+                </div>
+                <nav class = "left_navWrapper left">
+                    <ul class = "navMenu sc-list-nostyle left" >
+                        <li>
+                            <a class="header__navMenuItem selected" href="">Home</a>
+                        </li>
+                        <li>
+                            <a class="header__navMenuItem" href="">Stream</a>
+                        </li>
+                        <li>
+                            <a class="header__navMenuItem" href="">Library</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class = "header_mid">
+                <div class = "header_search">
+                    <form class = "search">
+                        <input type="search" placeholder="Search for artists, bands, tracks, podcasts">
+                        <button class = "search_submit" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class = "header_right">
+                <div class = loginMenu>
+                    <button class="signIn-btn" >Sign in</button>
+                    <button class="signUp-btn" >Create account</button>
+                </div>
+                <div class = "upload">
+                    <a href="" class = "uploadbutton">
+                        <span class = "uploadButton">Upload</span>
+                    </a>
+                </div>
+                <ul class = "otherMenu">
+                    <li>
+                        <a href="" aria-haspopup="true" aria-owns="dropdown-button-83">Settings and more</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class = "container">
+        <div class ="content">
+            <ul class = "contentList">
+                <li class = "top50">
+                    <div class="title">
+                        <h2 class="title_text">Charts: Top 50</h2>
+                        <p class = description>The most played tracks on SoundCloud this week</p>
+                    </div>
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>All music genres</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="2" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Global Beats</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="3" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-000465134559-jt1kw8-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Hip-hop & Rap</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="4" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-7nmc0L048KDmtv7Q-aSOK7A-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Pop</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                            <li id="5" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-oaxxC8pxAg4DylKm-saWIUw-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>House</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="Study"> 
+                    <div class="title">
+                        <h2 class="title_text">Study</h2>
+                        <p class = description>Popular playlists from the SoundCloud community</p>
+                    </div>
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-000075046140-457jdg-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>All music genres</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="2" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-000446064162-wdgv66-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Global Beats</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="3" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-000671248081-fyiuhd-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Hip-hop & Rap</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="4" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-000550578096-t8hsh7-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Pop</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                            <li id="5" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-000415709652-ehk994-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>House</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="new&hot">
+                    <div class="title">
+                        <h2 class="title_text">Charts: New & hot</h2>
+                        <p class = description>Up-and-coming tracks on SoundCloud</p>
+                    </div>
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>All music genres</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="2" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Global Beats</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="3" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-000465134559-jt1kw8-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Hip-hop & Rap</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="4" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-7nmc0L048KDmtv7Q-aSOK7A-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Pop</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                            <li id="5" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-oaxxC8pxAg4DylKm-saWIUw-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>House</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="Chill">
+                    <div class="title">
+                        <h2 class="title_text">Chill</h2>
+                        <p class = description>Popular playlists from the SoundCloud community</p>
+                    </div>
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>All music genres</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="2" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Global Beats</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="3" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-000465134559-jt1kw8-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Hip-hop & Rap</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="4" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-7nmc0L048KDmtv7Q-aSOK7A-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Pop</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                            <li id="5" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-oaxxC8pxAg4DylKm-saWIUw-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>House</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="Party">
+                    <div class="title">
+                        <h2 class="title_text">Party</h2>
+                        <p class = description>Popular playlists from the SoundCloud community</p>
+                    </div>
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>All music genres</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="2" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Global Beats</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="3" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-000465134559-jt1kw8-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Hip-hop & Rap</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="4" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-7nmc0L048KDmtv7Q-aSOK7A-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Pop</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                            <li id="5" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-oaxxC8pxAg4DylKm-saWIUw-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>House</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="Sleep">
+                    <div class="title">
+                        <h2 class="title_text">Sleep</h2>
+                        <p class = description>Popular playlists from the SoundCloud community</p>
+                    </div>
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>All music genres</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="2" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Global Beats</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="3" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-000465134559-jt1kw8-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Hip-hop & Rap</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="4" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-7nmc0L048KDmtv7Q-aSOK7A-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Pop</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                            <li id="5" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-oaxxC8pxAg4DylKm-saWIUw-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>House</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="Workout">
+                    <div class="title">
+                        <h2 class="title_text">Workout</h2>
+                        <p class = description>Popular playlists from the SoundCloud community</p>
+                    </div>
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>All music genres</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="2" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Global Beats</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="3" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-000465134559-jt1kw8-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Hip-hop & Rap</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="4" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-7nmc0L048KDmtv7Q-aSOK7A-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Pop</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                            <li id="5" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-oaxxC8pxAg4DylKm-saWIUw-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>House</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="Relax">
+                    <div class="title">
+                        <h2 class="title_text">Relax</h2>
+                        <p class = description>Popular playlists from the SoundCloud community</p>
+                    </div>
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>All music genres</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="2" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Global Beats</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="3" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-000465134559-jt1kw8-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Hip-hop & Rap</a>
+                                    <div class = "username">Top 50</div>
+                                </div>
+                            </li>
+                            <li id="4" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-7nmc0L048KDmtv7Q-aSOK7A-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>Pop</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                            <li id="5" class = "album-info">
+                                <img class = "image" src = "https://i1.sndcdn.com/artworks-oaxxC8pxAg4DylKm-saWIUw-t500x500.jpg">
+                                <div class = "description">
+                                    <a href="" class = album_description>House</a>
+                                    <span class = "username">Top 50</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class = "sidebar">
+            <div class = "mobile">
+                <div class = "mobile-title">Go mobile</div>
+                <div class = "mobileAppsButtons">
+                    <img src= 'https://a-v2.sndcdn.com/assets/images/appstore_badge-875ae97c.png' class = "sidebar-button-apple">
+                    <img src= 'https://a-v2.sndcdn.com/assets/images/google_play_badge-26379006.png' class = "sidebar-button-google">
+                </div>
+            </div>
+            <div class = "footer">
+                <a href="">Legal</a>
+                "&nbsp;- "
+                <a href="">Privacy</a>
+                "&nbsp;- "
+                <a href="">Cookie Policy</a>
+                "&nbsp;- "
+                <a href="">Cookie Manager</a>
+                "&nbsp;- "
+                <a href="">Imprint</a>
+                "&nbsp;- " 
+                <a href="">Creator Resources</a>
+                "&nbsp;- "
+                <a href="">Blog</a>
+                "&nbsp;- "
+                <a href="">Charts</a>
+                "&nbsp;- "
+                <a href="">Popular searches</a>
+                <div class="localeSelector">
+                    <a href="" type="button">
+                        "Languages: "
+                        <span class="lang">English (US)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

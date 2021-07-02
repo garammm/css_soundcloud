@@ -1,0 +1,268 @@
+@import url("https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "NanumSquareRound", Roboto, RobotoDraft, Helvetica, Arial,
+    sans-serif;
+  background-color: #cdcdcd4f;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.left {
+  float: left;
+}
+
+.sc-list-nostyle {
+  list-style: none;
+  margin: 0;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+/* Header */
+header {
+  width: 100%;
+  background: #333;
+  height: 46px;
+  display: flex;
+}
+
+.header_inner {
+  margin: 0 auto;
+  width: 1240px;
+  height: 46px;
+  background: rgb(224, 190, 190);
+  display: flex;
+}
+
+.header_left {
+  background: #333;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 184px;
+  height: 46px;
+}
+
+.header_mid {
+  background: #333;
+  display: flex;
+  align-items: center;
+  flex: 4;
+}
+
+.header_search {
+  display: flex;
+}
+
+form[class="search"] {
+  padding: 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+input[type="search"] {
+  background-color: #cdcdcd;
+  border-radius: 8px;
+  padding: 5px;
+  outline: none;
+  width: 300px;
+  border: none;
+}
+
+.search_submit {
+  background: url("https://a-v2.sndcdn.com/assets/images/search-dbfe5cbb.svg");
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 15px;
+  border: none;
+  right: 15px;
+  position: absolute;
+  color: transparent;
+}
+
+.loginMenu {
+  height: 100%;
+  display: flex;
+}
+
+.signIn-btn {
+  background-color: transparent;
+  padding: 2px 11px 2px 10px;
+  margin: 8px 0;
+  color: white;
+  border-color: #666;
+  border-radius: 3px;
+  outline: none;
+  border-width: 1px;
+  margin-right: 10px;
+  font-family: "NanumSquareRound", Roboto, RobotoDraft, Helvetica, Arial,
+    sans-serif;
+  font-size: 0.9rem;
+}
+
+.signUp-btn {
+  background-color: #ff5500;
+  color: white;
+  padding: 2px 11px 2px 10px;
+  margin: 8px 0;
+  border-radius: 3px;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  font-family: "NanumSquareRound", Roboto, RobotoDraft, Helvetica, Arial,
+    sans-serif;
+  font-size: 0.9rem;
+  margin-right: 10px;
+}
+
+.header_right {
+  background: #333;
+  display: flex;
+  align-items: center;
+}
+
+.uploadButton {
+  color: white;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.otherMenu {
+  list-style: none;
+}
+
+.otherMenu > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.otherMenu > li > a {
+  background: url("https://a-v2.sndcdn.com/assets/images/more-0e9e752c.svg");
+  background-repeat: no-repeat;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+}
+
+.left_navWrapper {
+  height: 46px;
+  width: 100%;
+}
+
+.navMenu {
+  height: 46px;
+  display: flex;
+}
+
+.navMenu > li > a {
+  color: white;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.header__navMenuItem {
+  display: block;
+  padding: 12px 0;
+  height: 46px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.headerSearch {
+  padding: 9px 10px 8px;
+  width: 100%;
+}
+
+/* Content */
+.container {
+  width: 92%;
+  display: flex;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.content {
+  flex: 2;
+  margin-right: 2rem;
+  border-right: 1px solid rgba(66, 66, 66, 0.1);
+}
+
+.title_text {
+  margin: 0;
+}
+
+.description {
+  margin: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.gallery {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(66, 66, 66, 0.1);
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.gallery-list {
+  display: flex;
+  margin: 1rem;
+}
+
+.album-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5rem;
+}
+
+.sidebar {
+  flex: 1;
+  padding: 1rem;
+}
+
+.image {
+  width: 150px;
+}
+
+.mobileAppsButtons {
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(66, 66, 66, 0.1);
+  display: flex;
+}
+
+.mobile-title {
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  color: #666;
+  font-size: 0.88rem;
+  border-bottom: 1px solid rgba(66, 66, 66, 0.1);
+}
+
+.sidebar-button-apple {
+  background-image: url(https://a-v2.sndcdn.com/assets/images/appstore_badge-875ae97c.png);
+}
+
+.sidebar-button-apple > a {
+  color: transparent;
+}
